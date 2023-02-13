@@ -8,14 +8,14 @@ a {
     line-height: 20px;
 }
 
-h1 {
+.title {
     color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
 }
 
-.paragraph {
+.txt {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -23,7 +23,7 @@ h1 {
     color: #7D7987;
 }
 
-.headline {
+.subtitle {
     color: coral;
     font-style: normal;
     font-weight: 700;
