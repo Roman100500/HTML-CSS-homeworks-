@@ -145,8 +145,6 @@ a.first-item {
 }
 
 .top-logo-list {
-    width: 100%;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
