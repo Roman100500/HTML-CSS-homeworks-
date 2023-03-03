@@ -315,6 +315,7 @@ ul {
         padding: 138.48px 0 0 0;
         margin: 0 0 0 55px;
         max-width: 283px;
+        width: 100%;
     }
 
     .top-txt-wrp::before {
