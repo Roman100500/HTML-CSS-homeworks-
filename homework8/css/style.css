@@ -151,6 +151,12 @@ ul {
     color: #f16d7f;
 }
 
+.center-2 {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .top__content-offers {
     margin: 0 0 96px 0;
 }
