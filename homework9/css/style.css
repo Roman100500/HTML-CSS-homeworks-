@@ -65,6 +65,10 @@ ul {
     gap: 41px;
 }
 
+.header__logo-link-image:hover {
+    filter: hue-rotate(45deg) brightness(1.1) contrast(1.1);
+}
+
 .nav-list {
     display: flex;
     align-items: flex-end;
@@ -580,13 +584,23 @@ input[type="email"]:focus {
     gap: 7.29px;
 }
 
-.footer-logos-list-item:hover .footer-logos-icon {
-    fill: white;
+.footer-logos-list-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
 }
 
-.footer-logos-list-item:hover .footer-logos-icon__2 {
-    fill: #F16D7F;
+.footer-logos-list-item-link:hover {
+    background-color: #F16D7F;
 }
+
+.footer-logos-list-item-link:hover svg {
+    fill: #fff;
+}
+
 
 @media (max-width: 1139px) {
 
