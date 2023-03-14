@@ -238,7 +238,7 @@ input[type="checkbox"]:checked~.menu-burger-list {
     min-height: 764px;
     background-image: url('../img/top-decoration-photo.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .top-txt-wrp {
@@ -590,6 +590,11 @@ input[type="checkbox"]:checked~.menu-burger-list {
     line-height: 24px;
 }
 
+.footer-info-txt-italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
 .footer-subscribe-sending {
     padding: 150px 0 0 0;
     text-align: center;
@@ -717,6 +722,10 @@ input[type="email"]:focus {
 
 
 @media (max-width: 1139px) {
+
+    .top-photo {
+        background-size: cover;
+    }
 
     .list-item-link.offers-photo__4 {
         max-width: 750px;
